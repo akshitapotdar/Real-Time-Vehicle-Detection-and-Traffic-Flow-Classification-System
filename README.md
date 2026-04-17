@@ -164,5 +164,13 @@ The HUD overlay displays:
 Wrong-direction vehicles are highlighted with a **red bounding box** and `!! WRONG DIR !!` label.
 
 ---
+📸 Demo Screenshots
+Wrong Direction Detection — Car flagged with red box and !! WRONG DIR !! label
+
+Normal Traffic — SMOOTH Status — All lanes green, vehicles detected per lane
+
+Heavy Traffic — Overhead View — Lane 2 congested, TRAFFIC STATUS: HEAVY
+
+Terminal Output — Frame-by-frame logs — Vehicle count, flow status, wrong dir flag, and latency per frame
 
 
