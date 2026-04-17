@@ -72,29 +72,7 @@ Video Frame → Preprocess (resize to 416×416) → YOLOv8 Inference
 └── README.md
 ```
 
----
 
-## ⚙️ Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/pratheeshkumar99/Real-Time-Vehicle-Detection-and-Traffic-Flow-Classification-System-.git
-cd Real-Time-Vehicle-Detection-and-Traffic-Flow-Classification-System-
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-**requirements.txt** includes:
-```
-ultralytics
-opencv-python
-numpy
-torch
-torchvision
-```
-
----
 
 ## 🚀 Usage
 
@@ -187,14 +165,4 @@ Wrong-direction vehicles are highlighted with a **red bounding box** and `!! WRO
 
 ---
 
-## 📄 License
 
-This project was developed as part of research work at the **University of Delaware**.
-
----
-
-## 🙋 Author
-
-**Pratheesh Kumar**  
-University of Delaware  
-[GitHub](https://github.com/pratheeshkumar99)
