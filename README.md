@@ -34,15 +34,7 @@ Video Frame → Preprocess (resize to 416×416) → YOLOv8 Inference
      → Annotated Output with HUD Overlay
 ```
 
-### Pipeline Components
 
-| Component | Method | AI/ML? |
-|---|---|---|
-| Vehicle Detection | YOLOv8 deep neural network | ✅ Yes |
-| Lane Assignment | Centroid x-position → lane strip | ❌ Geometry |
-| Traffic Classification | Per-lane count vs threshold | ❌ If/else logic |
-| Wrong-Direction Detection | Centroid Δx across frames | ❌ Math |
-| HUD Overlay | OpenCV drawing | ❌ OpenCV |
 
 ---
 
@@ -70,28 +62,6 @@ Video Frame → Preprocess (resize to 416×416) → YOLOv8 Inference
 ├── Notebook.ipynb                  # Training notebook with curves
 ├── requirements.txt
 └── README.md
-```
-
----
-
-## ⚙️ Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/pratheeshkumar99/Real-Time-Vehicle-Detection-and-Traffic-Flow-Classification-System-.git
-cd Real-Time-Vehicle-Detection-and-Traffic-Flow-Classification-System-
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-**requirements.txt** includes:
-```
-ultralytics
-opencv-python
-numpy
-torch
-torchvision
 ```
 
 ---
@@ -201,15 +171,6 @@ Wrong-direction vehicles are highlighted with a **red bounding box** and `!! WRO
 **Terminal Output — Frame-by-frame logs** — Vehicle count, flow status, wrong dir flag, and latency per frame
 ![Terminal Output](demo_terminal_output.png)
 
----
-
-## 📄 License
-
-This project was developed as part of research work at the **University of Delaware**.
-
----
-
-## 🙋 Author
 
 **Pratheesh Kumar**  
 University of Delaware  
