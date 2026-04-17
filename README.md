@@ -157,7 +157,7 @@ Wrong-direction vehicles are highlighted with a **red bounding box** and `!! WRO
 ---
 📸 Demo Screenshots
 Wrong Direction Detection — Car flagged with red box and !! WRONG DIR !! label
-
+demo_wrong_direction.png
 Normal Traffic — SMOOTH Status — All lanes green, vehicles detected per lane
 
 Heavy Traffic — Overhead View — Lane 2 congested, TRAFFIC STATUS: HEAVY
