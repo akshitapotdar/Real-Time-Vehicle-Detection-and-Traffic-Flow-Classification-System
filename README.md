@@ -34,15 +34,6 @@ Video Frame → Preprocess (resize to 416×416) → YOLOv8 Inference
      → Annotated Output with HUD Overlay
 ```
 
-### Pipeline Components
-
-| Component | Method | AI/ML? |
-|---|---|---|
-| Vehicle Detection | YOLOv8 deep neural network | ✅ Yes |
-| Lane Assignment | Centroid x-position → lane strip | ❌ Geometry |
-| Traffic Classification | Per-lane count vs threshold | ❌ If/else logic |
-| Wrong-Direction Detection | Centroid Δx across frames | ❌ Math |
-| HUD Overlay | OpenCV drawing | ❌ OpenCV |
 
 ---
 
