@@ -113,6 +113,9 @@ Training configuration:
 
 ## 📊 Performance
 
+<img width="766" height="382" alt="image" src="https://github.com/user-attachments/assets/c7fa08dd-38ba-470e-8f3d-ad7bc7aa749c" />
+
+
 | Metric | Value |
 |---|---|
 | Detection Accuracy | ~90% mAP@0.5 |
@@ -122,6 +125,9 @@ Training configuration:
 
 ### Latency Breakdown
 
+<img width="788" height="420" alt="image" src="https://github.com/user-attachments/assets/6f67261d-c9d0-414c-814e-0f1a1affd47c" />
+
+
 | Stage | Before | After |
 |---|---|---|
 | Frame Read | 8ms | 5ms |
@@ -129,6 +135,10 @@ Training configuration:
 | YOLOv8 Inference | 95ms | 65ms |
 | Post-process & Draw | 30ms | 23ms |
 | **Total** | **145ms** | **101ms** |
+
+### Wrong Detection Movement
+<img width="752" height="415" alt="image" src="https://github.com/user-attachments/assets/d2cc9e44-8a94-4ef1-bf11-31a96edfcc53" />
+
 
 ---
 
@@ -171,7 +181,3 @@ Wrong-direction vehicles are highlighted with a **red bounding box** and `!! WRO
 **Terminal Output — Frame-by-frame logs** — Vehicle count, flow status, wrong dir flag, and latency per frame
 ![Terminal Output](demo_terminal_output.png)
 
-
-**Pratheesh Kumar**  
-University of Delaware  
-[GitHub](https://github.com/pratheeshkumar99)
